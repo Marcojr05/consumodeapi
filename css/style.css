@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(32, 31, 31);
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    text-align: center;
+}
+
+#tabela{
+    background-color: brown;
+}

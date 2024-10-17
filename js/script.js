@@ -12,8 +12,7 @@ fetch("https://thronesapi.com/api/v2/Characters")
                     <td>${e.fullName}</td>
                     <td>${e.title}</td>
                     <td>${e.family}</td>
-                    <td>${e.image}</td>
-                    <td>${e.imageUrl}</td>
+                    <td><img src="${e.imageUrl}" alt=""></img></td>
                 </tr>
             `
             document.querySelector('tbody').insertAdjacentHTML('beforeend', linha)
